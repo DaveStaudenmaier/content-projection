@@ -1,0 +1,21 @@
+<mat-card>
+
+  <mat-card-header>
+    <mat-card-title>RV Like Me</mat-card-title>
+    <mat-card-subtitle>{{ type }}</mat-card-subtitle>
+    <img mat-card-avatar src="./../../assets/images/trailer.png">
+  </mat-card-header>
+
+  <ng-content select="[image]"></ng-content>
+
+  <mat-card-content>
+    <ng-content select="[location]"></ng-content>
+    <ng-content select="[description]"></ng-content>
+  </mat-card-content>
+
+  <mat-card-actions>
+    <button mat-button>LIKE</button>
+    <button mat-button>SHARE</button>
+  </mat-card-actions>
+
+</mat-card>

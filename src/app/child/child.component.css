@@ -1,0 +1,16 @@
+mat-card {
+  margin: 5px;
+  max-width: 300px;
+}
+
+mat-card-header {
+  margin-bottom: 10px;
+}
+
+mat-card-content {
+  margin-top: 10px;
+}
+
+.main-image{
+  width: 100%;
+}

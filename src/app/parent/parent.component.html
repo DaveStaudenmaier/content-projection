@@ -1,0 +1,35 @@
+<div class="container mat-body-1">
+  <p class="mat-title">Parent Component</p>
+
+  <div>
+    <app-child
+      [cardType]="'lifestyle'">
+      <img image style="width:100%" src="./../../assets/images/mccall-sunset.jpg">
+      <p location>McCall, ID</p>
+      <p description>This was the view from our RV park.  Beautiful here!</p>
+    </app-child>
+
+    <app-child
+      [cardType]="'lifestyle'">
+      <div image style="text-align:center">
+        <a style="text-decoration:none; cursor:pointer;"
+            href="./../../assets/images/mccall-sunset.jpg" target="_blank">
+            <img style="width:32.3%; margin-right:1.03%" src="./../../assets/images/mccall-sunset.jpg">
+        </a>
+
+        <a style="text-decoration:none; cursor:pointer;"
+            href="./../../assets/images/mccall-lake.jpg" target="_blank">
+            <img style="width:32.3%; margin-left:1.03%" src="./../../assets/images/mccall-lake.jpg">
+        </a>
+
+        <a style="text-decoration:none; cursor:pointer;"
+            href="./../../assets/images/mccall-snow.jpg" target="_blank">
+            <img style="width:32.3%; margin-left:1.03%" src="./../../assets/images/mccall-snow.jpg">
+        </a>
+      </div>
+      <p location>McCall, ID</p>
+      <p description>McCall, Idaho is beautiful! Click on any pic to see larger.</p>
+    </app-child>
+  </div>
+
+</div>
