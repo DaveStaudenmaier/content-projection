@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 This demo project uses a real-world use case to show you how to use `ng-content` to project HTML from a parent component's template to a child component's template.   It also shows you how you might use `ng-template`, `ngTemplateOutlet` and `ng-container`.
 
-For an explanation, see my associated [blog](http://devreboot.com/content-projection).
+For an explanation, see my associated [blog](http://dev-reboot.com/content-projection).
 
 ## Development server
 
