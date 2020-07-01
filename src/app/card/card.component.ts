@@ -6,11 +6,11 @@ enum CardType {
 }
 
 @Component({
-  selector: 'app-child',
-  templateUrl: './child.component.html',
-  styleUrls: ['./child.component.css']
+  selector: 'app-card',
+  templateUrl: './card.component.html',
+  styleUrls: ['./card.component.css']
 })
-export class ChildComponent implements OnInit {
+export class CardComponent implements OnInit {
   @Input() cardType: string;
 
   type: string;

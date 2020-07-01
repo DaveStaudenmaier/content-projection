@@ -1,0 +1,10 @@
+.container {
+  padding: 10px;
+}
+
+.hyperlink {
+  color: green;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+}
